@@ -1,0 +1,256 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #012A4E;
+    font-family: "Sofia";
+  
+}
+/*This is to keep the navigation
+ bar fixed in place and color 
+it while also making it cover 
+the whole page in width*/
+.navbar{ 
+ position:fixed;
+  width: 100%;
+  top: 0;
+  background-color: #01305B;
+}
+
+
+/*This is the table's styling code*/
+.table{
+color: white;
+}
+
+  .demo {
+    border:1px solid #C0C0C0;
+    border-collapse:collapse;
+    padding:5px;
+    color: white;
+  }
+  .demo th {
+    border:1px solid #C0C0C0;
+    padding:5px;
+    background:#F0F0F0;
+  }
+  .demo td {
+    border:1px solid #C0C0C0;
+    padding:5px;
+  }
+
+
+/*The tabs in the navigation bar*/
+.tablink {
+  background-color: #01305B;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 12px;
+  height: 45px;
+
+ 
+}
+/*default refers to the tab the user is on*/
+#default{
+  background-color: #0F4372;
+}
+
+/*this changes the color when the user hovers over a tab*/
+.tablink:hover {
+  background-color: #0F4372;
+}
+
+/*All the banner images (image1-image6)*/
+.image1{
+background: url(im/h.jpg) no-repeat center top;
+    height: 180px;
+    width: 100%;
+    background-size: 100% 180px ;
+
+}
+.image2{
+background: url(im/php2.jpg) no-repeat center top;
+    height: 180px;
+    width: 100%;
+    background-size: 100% 180px ;
+
+
+}
+
+.image3{
+background: url(im/js3.png) no-repeat center top;
+    height: 180px;
+    width: 100%;
+    background-size: 100% 180px ;
+}
+
+.image4{
+background: url(im/css4.png) no-repeat center top;
+    height: 180px;
+    width: 100%;
+    background-size: 100% 180px ;
+}
+
+.image5{
+background: url(im/cu.jpg) no-repeat center top;
+    height: 180px;
+    width: 100%;
+    background-size: 100% 180px ;
+
+}
+.image6{
+background: url(im/au.jpg) no-repeat center top;
+    height: 180px;
+    width: 100%;
+    background-size: 100% 180px ;
+}
+
+/*css screen shots alingned in the center and adjusted to the right size*/
+.pics{
+width: 49.5%;
+height: 500px;
+align-content: : center;
+}
+
+/*css code*/
+.code{
+  background: #f4f4f4;
+ border: 1px solid #ddd;
+  border-left: 3px solid #4D5656;
+  color: #666;
+  page-break-inside: avoid;
+   font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+    margin-bottom: 1.6em;
+ max-width: 100%;
+    overflow: auto;
+  padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+
+}
+
+
+/*The form in Contact us tab*/
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #03539B;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #003360;
+}
+
+.formclass {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.msg{
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+/*the map styling*/
+.location {
+    position: relative;
+    text-align: center;
+    padding-top: 1%;
+    overflow: hidden;
+
+}
+
+/*this all is to manage the dropdown list of the About Us tab*/
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+ width: 16.6666%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+
+.dropdown-content :hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+  .navbar button {
+    float: none;
+
+    text-align: left;
+  }
+  .navbar.dropdown {float: none;}
+  .navbar.dropdown-content {position: relative;}
+  .navbar.dropdown.dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+/*the two videos in Javascript and PHP tabs*/
+.vid{
+ text-align: center;
+ margin: 30px;
+}
+
